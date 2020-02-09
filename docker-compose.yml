@@ -1,0 +1,8 @@
+version: "2"
+services:
+  react:
+    build: .
+    environment:
+      PORT: "4666"
+    ports:
+      - "4666:4666"
